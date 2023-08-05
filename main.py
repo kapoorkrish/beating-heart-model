@@ -42,7 +42,7 @@ def heartbeat(bpm, condition):
   if bpm > 0 and bpm <= 200:
     sleep(0.25)
     
-    servo.write(0)
+    servo.write(20)
 
     green1.on()
     green2.on()
@@ -60,7 +60,7 @@ def heartbeat(bpm, condition):
     
     sleep(delay)
     
-    servo.write(60)
+    servo.write(50)
     
     red.off()
 
